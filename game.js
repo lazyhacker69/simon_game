@@ -89,5 +89,12 @@ $(document).click(function() {
     }
 });
 
+$("h1").click(function(){
+    if (!start) {
+        nextSequence();
+        start = true;
+    }
+})
+
 
 
