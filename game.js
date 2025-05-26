@@ -82,15 +82,12 @@ $(document).keypress(function(){
     }
 })
 
-if (window.innerWidth < 700){
-    $(".startButton").removeClass("hidden");
-    $("h1").text("Press Start to Start the game")
-}
-
-$(".startButton").click(function(){
+$(document).click(function() {
     if (!start) {
         nextSequence();
         start = true;
     }
-})
+});
+
+
 
