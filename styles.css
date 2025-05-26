@@ -1,9 +1,6 @@
 body {
   background-color: #011F3F;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  text-align : center;
 }
 
 #level-title {
@@ -55,19 +52,4 @@ body {
   background-color: grey;
 }
 
-.startButton{
-  display: flex;
-  height: 80px;
-  width: 250px;
-  background-color: green;
-  font-family: 'Press Start 2P', cursive;
-  font-size: 2rem;
-  border-radius: 10px;
-  align-items: center;
-  justify-content: center;
-}
-
-.hidden{
-  display: none;
-}
 
